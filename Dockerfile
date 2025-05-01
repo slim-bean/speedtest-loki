@@ -29,5 +29,4 @@ USER speedtest
 SHELL ["/bin/bash", "-c"]
 
 # Default to interactive shell, but allow running speedtest directly
-ENTRYPOINT ["/bin/bash"]
-CMD ["-i"]
+CMD ["/bin/bash"]
